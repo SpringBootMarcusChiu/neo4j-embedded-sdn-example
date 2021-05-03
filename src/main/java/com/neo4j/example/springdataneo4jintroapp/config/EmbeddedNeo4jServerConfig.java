@@ -11,7 +11,7 @@ import java.io.File;
 import static org.neo4j.configuration.GraphDatabaseSettings.DEFAULT_DATABASE_NAME;
 
 @Configuration
-public class EmbeddedNeo4jConfig {
+public class EmbeddedNeo4jServerConfig {
 
     @Bean
     public GraphDatabaseService graphDatabaseService() {
